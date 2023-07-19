@@ -1,0 +1,202 @@
+/* !COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* !COMMON CSS ENDS HERE======================================================================================== */
+
+/* !NAVTOPBAR SECTION STARTS HERE */
+/* PC */
+#navTopBar {
+    background-color: #151A32;
+}
+#navTopBar .textPart1 {
+    text-align: left;
+    padding: 0;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+#navTopBar .textPart1 .icon {
+    font-size: 20px;
+    color: #FF6F61;
+}
+#navTopBar .textPart1 h2 {
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: inline-block;
+}
+#navTopBar .textPart1 h2 .textDesign {
+    color: #FF6F61;
+}
+#navTopBar .textPart2 {
+    padding: 0;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+#navTopBar .textPart2 .select {
+    padding: 0;
+    text-align: center;
+}
+#navTopBar .textPart2 .select ul li {
+    display: inline-block;
+    padding: 0 15px;
+    border-right: 1px solid whitesmoke;
+}
+#navTopBar .textPart2 .select ul li a {
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    transition: 0.3s;
+}
+#navTopBar .textPart2 .select ul li:hover a {
+    color: #FF6F61;
+}
+#navTopBar .textPart2 .select ul li #Languages {
+    text-align: center;
+    background-color: #151A32;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    outline: none;
+}
+#navTopBar .textPart2 .select ul li #money {
+    text-align: center;
+    background-color: #151A32;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    outline: none;
+}
+#navTopBar .textPart2 .socialIcons {
+    padding: 0;
+    text-align: center;
+}
+#navTopBar .textPart2 .socialIcons ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+#navTopBar .textPart2 .socialIcons ul li a {
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+}
+#navTopBar .textPart2 .socialIcons ul li:hover a {
+    color: #FF6F61;
+}
+/* PC */
+
+/* lAPTOP */
+
+/* lAPTOP */
+
+/* TABLET */
+
+/* TABLET */
+
+/* MOBILE */
+#navTopBar .textPart2Sm {
+    padding: 0;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+#navTopBar .textPart2Sm .select {
+    padding: 0;
+    text-align: center;
+}
+#navTopBar .textPart2Sm .select ul li {
+    display: inline-block;
+    padding: 0 15px;
+    border-right: 1px solid whitesmoke;
+}
+#navTopBar .textPart2Sm .select ul li:last-child {
+    border-right: none;
+}
+#navTopBar .textPart2Sm .select ul li a {
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    transition: 0.3s;
+}
+#navTopBar .textPart2Sm .select ul li:hover a {
+    color: #FF6F61;
+}
+#navTopBar .textPart2Sm .select ul li #Languages {
+    text-align: center;
+    background-color: #151A32;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    outline: none;
+}
+#navTopBar .textPart2Sm .select ul li #money {
+    text-align: center;
+    background-color: #151A32;
+    color: #FFF;
+    font-family: var(--secondaryFont);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    outline: none;
+}
+#navTopBar .textPart2Sm .socialIcons {
+    padding: 0;
+    text-align: center;
+}
+#navTopBar .textPart2Sm .socialIcons ul li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+#navTopBar .textPart2Sm .socialIcons ul li a {
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+}
+#navTopBar .textPart2Sm .socialIcons ul li:hover a {
+    color: #FF6F61;
+}
+/* MOBILE */
+/* !NAVTOPBAR SECTION ENDS HERE */
